@@ -4,7 +4,6 @@ import GetMaterial from "./GetMaterial";
 const ThreeMesh = ({ object }) => {
   return (
     <mesh
-      // ref={mesh}
       position={object.position}
       scale={object.scale}
       rotation={object.rotation}
